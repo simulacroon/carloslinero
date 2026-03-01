@@ -93,7 +93,7 @@ nav ul li a {
 
 #home {
   position: relative;
-  min-height: 100vh;
+  min-height: 120vh;
   padding-top: 140px; 
   display: flex;
   align-items: center;
@@ -126,8 +126,8 @@ nav ul li a {
   align-items: center;   /* ← cambiar esto */
   text-align: center;
   z-index: 2;
-  gap: 40vh;
-  padding-top: 30vh;     /* un poco más abajo */
+  gap: 120px;
+  padding-top: 120px 0;     /* un poco más abajo */
 }
 
 
@@ -142,6 +142,7 @@ nav ul li a {
   color: rgb(4, 30, 53);
   margin: 0 auto;
   align-self: center; /* refuerzo en flex */
+  gap: 160px;
 
   
 
@@ -531,6 +532,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
