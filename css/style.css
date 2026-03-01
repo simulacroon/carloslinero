@@ -139,7 +139,7 @@ nav ul li a {
   font-size: 1.2rem;
   line-height: 1.8;
   color: rgb(4, 30, 53);
-  gap: 80px;
+
 
   opacity: 0.85;
   order: 1;
@@ -149,7 +149,7 @@ nav ul li a {
 
 
 .home-hero img {
-  width: 70vw;
+  width: 30vw;
   max-width: none;
   height: auto;
   
@@ -526,6 +526,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
