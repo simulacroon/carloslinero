@@ -126,7 +126,7 @@ nav ul li a {
   align-items: center;
   text-align: center;
   z-index: 2;
-  gap: 120px;
+  gap: 200px;
 }
 
 
@@ -148,7 +148,7 @@ nav ul li a {
 
 
 .home-hero img {
-  width: 70%;
+  width: 100%;
   max-width: 1080px;
   height: auto;
   display: block;
@@ -526,6 +526,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
