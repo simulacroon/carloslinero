@@ -152,6 +152,7 @@ nav ul li a {
   max-width: 1080px;
   height: auto;
   display: block;
+  margin-top: 40px;
   order: 2;
 }
 
@@ -525,6 +526,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
