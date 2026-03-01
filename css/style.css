@@ -126,13 +126,13 @@ nav ul li a {
   align-items: center;
   text-align: center;
   z-index: 2;
-  gap: 60px
+  gap: 120px;
 }
 
 
 
 .hero-text {
-  margin-top: 50px;
+  
   font-family: 'Instrument Sans', sans-serif;
   max-width: 700px;
   text-align: center;
@@ -152,7 +152,7 @@ nav ul li a {
   max-width: 1080px;
   height: auto;
   display: block;
-  margin-top: 40px;
+  
   order: 2;
 }
 
@@ -526,6 +526,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
