@@ -123,10 +123,10 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   text-align: center;
   z-index: 2;
-  gap: 400px;
+  gap: 200px;
 }
 
 
@@ -148,10 +148,9 @@ nav ul li a {
 
 
 .home-hero img {
-  width: 100vw;
+  width: 90vw;
   max-width: none;
   height: auto;
-  display: block;
   
   order: 2;
 }
@@ -526,6 +525,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
