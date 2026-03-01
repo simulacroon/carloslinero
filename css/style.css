@@ -126,6 +126,7 @@ nav ul li a {
   align-items: center;
   text-align: center;
   z-index: 2;
+  gap: 60px
 }
 
 
@@ -524,6 +525,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
