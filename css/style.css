@@ -126,7 +126,8 @@ nav ul li a {
   align-items: stretch;
   text-align: center;
   z-index: 2;
-  gap: 200px;
+  gap: 120px;
+  padding-top: 15vh;
 }
 
 
@@ -139,6 +140,7 @@ nav ul li a {
   font-size: 1.2rem;
   line-height: 1.8;
   color: rgb(4, 30, 53);
+  
 
 
   opacity: 0.85;
@@ -149,8 +151,8 @@ nav ul li a {
 
 
 .home-hero img {
-  width: 100%;
-  max-width: none;
+  width: 70vw;
+  max-width: 100%;
   height: auto;
   
   order: 2;
@@ -526,6 +528,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
