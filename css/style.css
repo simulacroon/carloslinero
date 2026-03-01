@@ -93,12 +93,11 @@ nav ul li a {
 
 #home {
   position: relative;
-  min-height: 120vh;
+  min-height: 150vh;
   padding: 140px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: visible;
+
+  display: block; /* ← quitar flex completamente */
 
   background:
     linear-gradient(
@@ -118,14 +117,12 @@ nav ul li a {
 
 
 .home-hero {
-  min-height: auto;  
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  z-index: 2;
-  padding: 120px 0; /* arriba y abajo */
+
+  padding-top: 15vh;   /* mueve texto hacia arriba */
 }
 
 
@@ -139,7 +136,7 @@ nav ul li a {
   color: rgb(4, 30, 53);
   margin: 0 auto;
   align-self: center; /* refuerzo en flex */
-  margin-bottom: 800px;
+  margin-bottom: 25vh;
 
   opacity: 0.85;
   order: 1;
@@ -528,6 +525,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
