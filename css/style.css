@@ -126,8 +126,8 @@ nav ul li a {
   align-items: center;   /* ← cambiar esto */
   text-align: center;
   z-index: 2;
-  gap: 12vh;
-  padding-top: 18vh;     /* un poco más abajo */
+  gap: 40vh;
+  padding-top: 30vh;     /* un poco más abajo */
 }
 
 
@@ -531,6 +531,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
