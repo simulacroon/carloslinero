@@ -137,7 +137,7 @@ nav ul li a {
   margin: 0 auto;
   align-self: center; /* refuerzo en flex */
   margin-bottom: 25vh;
-  margin-top: 25vh;
+  margin-top: 20vh;
 
   opacity: 0.85;
   order: 1;
@@ -150,7 +150,7 @@ nav ul li a {
   width: 60vw;
   max-width: 900px;   /* ← importante */
   height: auto;
-  margin-top: 10vh;
+  margin-top: 20vh;
   order: 2;
   
  
@@ -527,6 +527,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
