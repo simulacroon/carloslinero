@@ -119,17 +119,17 @@ nav ul li a {
 
 
 .home-hero {
-  min-height: calc(100vh - 100px);  
+  min-height: auto;  
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;   /* ← cambiar esto */
+  align-items: center;
   text-align: center;
   z-index: 2;
-  gap: 120px;
-  padding-top: 120px 0;     /* un poco más abajo */
-}
 
+  gap: 160px;      /* separación real */
+  padding: 120px 0; /* arriba y abajo */
+}
 
 
 .hero-text {
@@ -142,10 +142,6 @@ nav ul li a {
   color: rgb(4, 30, 53);
   margin: 0 auto;
   align-self: center; /* refuerzo en flex */
-  gap: 160px;
-
-  
-
 
   opacity: 0.85;
   order: 1;
@@ -532,6 +528,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
