@@ -150,7 +150,7 @@ nav ul li a {
   width: 60vw;
   max-width: 900px;   /* ← importante */
   height: auto;
-  margin-top: 30vh;
+  margin-top: 35vh;
   order: 2;
   
  
@@ -527,6 +527,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
