@@ -126,7 +126,7 @@ nav ul li a {
   align-items: center;   /* ← cambiar esto */
   text-align: center;
   z-index: 2;
-  gap: 80px;
+  gap: 12vh;
   padding-top: 18vh;     /* un poco más abajo */
 }
 
@@ -140,6 +140,9 @@ nav ul li a {
   font-size: 1.2rem;
   line-height: 1.8;
   color: rgb(4, 30, 53);
+  margin: 0 auto;
+  align-self: center; /* refuerzo en flex */
+
   
 
 
@@ -528,6 +531,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
