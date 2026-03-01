@@ -95,9 +95,6 @@ nav ul li a {
   position: relative;
   min-height: 120vh;
   padding-top: 140px; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
   overflow: hidden;
 
   background:
@@ -528,6 +525,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
