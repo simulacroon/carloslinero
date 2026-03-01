@@ -94,7 +94,7 @@ nav ul li a {
 #home {
   position: relative;
   min-height: 100vh;
-  padding-top: 100px; 
+  padding-top: 140px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,11 +123,11 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;   /* ← cambiar esto */
   text-align: center;
   z-index: 2;
-  gap: 120px;
-  padding-top: 15vh;
+  gap: 80px;
+  padding-top: 18vh;     /* un poco más abajo */
 }
 
 
@@ -152,11 +152,11 @@ nav ul li a {
 
 .home-hero img {
   width: 70vw;
-  max-width: 100%;
+  max-width: 70vw;   /* ← importante */
   height: auto;
-  
   order: 2;
 }
+
 
 #p5-bg {
   position: fixed;
@@ -528,6 +528,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
