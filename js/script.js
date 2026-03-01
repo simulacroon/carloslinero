@@ -11,7 +11,7 @@ let alpha = 30;
 
 
 function preload() {
-  sound = loadSound('sound/gasolinero.mp3');
+  sound = loadSound('Sound/gasolinero.mp3');
 }
 
 function mousePressed() {
@@ -121,4 +121,5 @@ function mousePressed() {
     hint.style.transition = 'opacity 1.5s ease';
   }
 }
+
 
