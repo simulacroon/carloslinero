@@ -122,13 +122,10 @@ nav ul li a {
   min-height: auto;  
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   z-index: 2;
-
-
-  gap: 200px;      /* separación real */
   padding: 200px 0; /* arriba y abajo */
 }
 
@@ -143,6 +140,7 @@ nav ul li a {
   color: rgb(4, 30, 53);
   margin: 0 auto;
   align-self: center; /* refuerzo en flex */
+  margin-bottom: 180px;
 
   opacity: 0.85;
   order: 1;
@@ -152,10 +150,12 @@ nav ul li a {
 
 
 .home-hero img {
-  width: 70vw;
-  max-width: 70vw;   /* ← importante */
+  width: 60vw;
+  max-width: 900px;   /* ← importante */
   height: auto;
   order: 2;
+  
+ 
 }
 
 
@@ -529,6 +529,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
