@@ -14,11 +14,7 @@ function preload() {
   sound = loadSound('Sound/gasolinero.mp3');
 }
 
-function mousePressed() {
-  if (!sound.isPlaying()) {
-    sound.loop();
-  }
-}
+
 
 
 function setup() {
@@ -121,5 +117,6 @@ function mousePressed() {
     hint.style.transition = 'opacity 1.5s ease';
   }
 }
+
 
 
