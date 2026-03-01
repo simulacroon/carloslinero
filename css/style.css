@@ -130,15 +130,6 @@ nav ul li a {
 
 
 
-
-.home-hero img {
-  width: 55%;
-  max-width: 3000px;
-  height: auto;
-  display: block;
-}
-
-
 .hero-text {
   margin-top: 50px;
   font-family: 'Instrument Sans', sans-serif;
@@ -151,6 +142,15 @@ nav ul li a {
   opacity: 0.85;
 }
 
+
+
+
+.home-hero img {
+  width: 70%;
+  max-width: 1080px;
+  height: auto;
+  display: block;
+}
 
 #p5-bg {
   position: fixed;
@@ -522,6 +522,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
