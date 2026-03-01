@@ -140,6 +140,7 @@ nav ul li a {
   color: rgb(4, 30, 53);
 
   opacity: 0.85;
+  order: 1;
 }
 
 
@@ -150,6 +151,7 @@ nav ul li a {
   max-width: 1080px;
   height: auto;
   display: block;
+  order: 2;
 }
 
 #p5-bg {
@@ -522,6 +524,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
