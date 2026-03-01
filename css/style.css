@@ -127,6 +127,9 @@ nav ul li a {
   text-align: center;
   z-index: 2;
 
+  background: red;
+
+
   gap: 200px;      /* separación real */
   padding: 200px 0; /* arriba y abajo */
 }
@@ -528,6 +531,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
