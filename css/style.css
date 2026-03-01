@@ -139,7 +139,7 @@ nav ul li a {
   color: rgb(4, 30, 53);
   margin: 0 auto;
   align-self: center; /* refuerzo en flex */
-  margin-bottom: 400px;
+  margin-bottom: 800px;
 
   opacity: 0.85;
   order: 1;
@@ -528,6 +528,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
