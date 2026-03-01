@@ -133,7 +133,7 @@ nav ul li a {
 
 .home-hero img {
   width: 55%;
-  max-width: 1200px;
+  max-width: 3000px;
   height: auto;
   display: block;
 }
@@ -522,6 +522,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
