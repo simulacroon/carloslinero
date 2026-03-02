@@ -542,14 +542,8 @@ nav ul li a {
 
 /* ===== Tamaño imágenes obras ===== */
 
-#pintura article img,
-#escultura article img,
-#instalacion article img,
-#fotografia article img {
-  width: 30%;
-  max-width: 300px;
-  height: auto;
-}
+
+
 
 
 
