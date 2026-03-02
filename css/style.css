@@ -131,7 +131,7 @@ nav ul li a {
   font-family: 'Montserrat', sans-serif;
   max-width: 420px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.025rem;
   line-height: 1.8;
   color: rgb(4, 30, 53);
   margin: 0 auto;
@@ -536,6 +536,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
