@@ -96,23 +96,37 @@ nav ul li a {
   min-height: 150vh;
   padding: 140px 0;
   overflow: visible;
+  display: block;
 
-  display: block; /* ← quitar flex completamente */
+  background: linear-gradient(
+    to bottom,
+    rgba(206, 195, 172, 0.2),
+    rgba(216, 209, 194, 0.85),
+    rgba(238, 214, 149, 0.85)
+  );
+}
 
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(206, 195, 172, 0.2),
-      rgba(216, 209, 194, 0.85),
-      rgba(238, 214, 149, 0.85)
-    ),
-    url("../img/text1.png");
+#home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
 
+  background-image: url("../img/text1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+
+  opacity: 0.25;   /* ← controla aquí la transparencia */
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 0;
 }
 
+#home > * {
+  position: relative;
+  z-index: 2;
+}
 
 
 
@@ -544,6 +558,7 @@ nav ul li a {
 }
 
 /* ===== Tamaño imágenes obras ===== */
+
 
 
 
