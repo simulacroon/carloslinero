@@ -118,7 +118,8 @@ nav ul li a {
 
 
   opacity: 0.20;   /* ← controla aquí la transparencia */
-  mix-blend-mode: overlay;
+  mix-blend-mode: soft-light;
+  animation: breathingTexture 18s ease-in-out infinite;
   pointer-events: none;
   z-index: 0;
 }
@@ -560,7 +561,23 @@ nav ul li a {
 /* ===== Tamaño imágenes obras ===== */
 
 
+@keyframes breathingTexture {
 
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 0.22;
+  }
+
+  50% {
+    transform: scale(1.03) translateY(-10px);
+    opacity: 0.30;
+  }
+
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 0.22;
+  }
+}
 
 
 
