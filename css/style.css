@@ -445,14 +445,14 @@ nav ul li a {
 
 .piece figcaption {
   position: absolute;
-  right: 0;
-  bottom: -1vh;
+  right: 2%;
+  bottom: 8%;
   max-width: 260px;
   font-size: 0.75rem;
   font-weight: 300;
   line-height: 1.4;
   color: #222;
-  text-align: center;
+  text-align: right;
 }
 
 .piece figcaption span {
@@ -591,6 +591,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
