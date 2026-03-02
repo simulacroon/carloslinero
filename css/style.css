@@ -193,6 +193,15 @@ nav ul li a {
   line-height: 1.8;
 }
 
+
+section article img {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  gap: 120px;
+}
+
+
 #pintura {
   display: flex;
   justify-content: center;
@@ -536,6 +545,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
