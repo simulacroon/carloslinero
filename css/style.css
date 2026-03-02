@@ -391,7 +391,10 @@ nav ul li a {
 /* GALERÍA SCROLL */
 
 .inner-page {
-  background: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 255, 136, 0),
+    
 }
 
 .gallery {
@@ -420,8 +423,8 @@ nav ul li a {
 }
 
 .piece img {
-  width: 30%;        /* ← tamaño real de la obra */
-  max-width: 300px;  /* límite */
+  width: 45%;        /* ← tamaño real de la obra */
+  max-width: 480px;  /* límite */
   height: auto;
   display: block;
   margin: 0 auto;    /* centra la imagen */
@@ -578,6 +581,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
