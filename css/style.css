@@ -394,7 +394,8 @@ nav ul li a {
   background-image: linear-gradient(
     to bottom,
     rgba(0, 255, 136, 0),
-    
+    rgba(255,255,255,1)
+  );
 }
 
 .gallery {
@@ -581,6 +582,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
