@@ -391,10 +391,10 @@ nav ul li a {
 /* GALERÍA SCROLL */
 
 .inner-page {
-  background-image: linear-gradient(
+  background: linear-gradient(
     to bottom,
-    rgba(0, 255, 136, 0),
-    rgba(255,255,255,1)
+    #ffffff,
+    #f7f7f7
   );
 }
 
@@ -582,6 +582,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
