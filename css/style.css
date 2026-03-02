@@ -447,10 +447,19 @@ nav ul li a {
 }
 
 .author-text {
-  text-align: center;
+  text-align: justify;
   font-size: 1.05rem;
   line-height: 1.7;
   font-weight: 300;
+  text-justify: inter-word;
+  hyphens: auto;          /* divide palabras automáticamente */
+  max-width: 520px;       /* controla la longitud de línea */
+  margin: 0 auto;     
+}
+
+
+.author-text p {
+  margin-bottom: 1.4em;
 }
 
 .author-image img {
@@ -527,6 +536,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
