@@ -424,8 +424,8 @@ nav ul li a {
 }
 
 .piece img {
-  width: 65%;        /* ← tamaño real de la obra */
-  max-width: 700px;  /* límite */
+  width: 70%;        /* ← tamaño real de la obra */
+  max-width: 900px;  /* límite */
   height: auto;
   display: block;
   margin: 0 auto;    /* centra la imagen */
@@ -582,6 +582,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
