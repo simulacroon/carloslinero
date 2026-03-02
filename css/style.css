@@ -448,7 +448,7 @@ nav ul li a {
 
 .author-text {
   text-align: justify;
-  font-size: 0.25rem;
+  font-size: 1.1rem;
   line-height: 1.7;
   font-weight: 300;
   text-justify: inter-word;
@@ -536,6 +536,7 @@ nav ul li a {
 @media (max-width: 768px) {
 
 }
+
 
 
 
