@@ -117,8 +117,8 @@ nav ul li a {
   background-repeat: no-repeat;
 
 
-  opacity: 0.25;   /* ← controla aquí la transparencia */
-  mix-blend-mode: multiply;
+  opacity: 0.15;   /* ← controla aquí la transparencia */
+  mix-blend-mode: overlay;
   pointer-events: none;
   z-index: 0;
 }
@@ -558,6 +558,7 @@ nav ul li a {
 }
 
 /* ===== Tamaño imágenes obras ===== */
+
 
 
 
