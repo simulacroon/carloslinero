@@ -454,7 +454,7 @@ nav ul li a {
   line-height: 1.4;
   margin-top: 20px;
   color: #222;
-  text-align: right;
+  text-align: justify;
 }
 
 .piece figcaption span {
@@ -593,6 +593,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
