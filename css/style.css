@@ -445,13 +445,14 @@ nav ul li a {
 /* TEXTO FLOTANTE */
 
 .piece figcaption {
-  position: absolute;
+  position: relative;
   right: -20px;
-  bottom: -60px;
-  max-width: 260px;
+  bottom: -30px;
+  max-width: 420px;
   font-size: 0.75rem;
   font-weight: 300;
   line-height: 1.4;
+  margin-top: 20px;
   color: #222;
   text-align: right;
 }
@@ -592,6 +593,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
