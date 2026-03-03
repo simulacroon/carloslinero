@@ -447,7 +447,7 @@ nav ul li a {
 .piece figcaption {
   position: absolute;
   right: -20px;
-  bottom: -30px;
+  bottom: -60px;
   max-width: 260px;
   font-size: 0.75rem;
   font-weight: 300;
@@ -592,6 +592,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
