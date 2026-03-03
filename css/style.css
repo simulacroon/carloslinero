@@ -407,7 +407,7 @@ nav ul li a {
 }
 
 .piece {
-  width: 100%;
+  width: 90%;
   min-height: 80vh;     /* ← cada obra ocupa una pantalla */
   
   display: flex;
@@ -591,6 +591,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
