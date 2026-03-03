@@ -400,15 +400,16 @@ nav ul li a {
 
 .gallery {
   width: 100%;
-  padding: 20vh 0;
+  padding: 12vh 0;
   display: flex;
   flex-direction: column;
-  gap: 0; /* respiración */
+  gap: 22vh; /* respiración */
 }
 
 .piece {
-  width: 90%;
-  min-height: 80vh;     /* ← cada obra ocupa una pantalla */
+  width: fit-content;
+  min-height: 60vh; /* ← cada obra ocupa una pantalla */
+  margin: 0 auto;
   
   display: flex;
   flex-direction: column;
@@ -445,8 +446,8 @@ nav ul li a {
 
 .piece figcaption {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: -20px;
+  bottom: -30px;
   max-width: 260px;
   font-size: 0.75rem;
   font-weight: 300;
@@ -591,6 +592,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
