@@ -74,11 +74,17 @@ function draw() {
   }
   endShape(CLOSE);
   
-    // ===== PUNTO CENTRAL PRECISO =====
-  blendMode(BLEND);
-  fill(0, 120);
-  ellipse(x, y, 6, 6);
 
+// ===== PUNTO CENTRAL PRECISO DINÁMICO =====
+blendMode(BLEND);
+
+let speed = dist(mouseX, mouseY, pmouseX, pmouseY);
+let dotSize = map(speed, 0, 20, 8, 3);
+
+fill(0, 150);
+ellipse(x, y, dotSize);
+
+  
   // =====================
   // SONIDO VIVO
   // =====================
@@ -122,6 +128,14 @@ function mousePressed() {
     hint.style.transition = 'opacity 1.5s ease';
   }
 }
+
+
+
+document.querySelectorAll("a").forEach(link => {
+  link.addEventListener("mouseenter", () => baseRadius = 30);
+  link.addEventListener("mouseleave", () => baseRadius = 50);
+});
+
 
 
 
