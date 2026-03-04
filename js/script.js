@@ -73,6 +73,11 @@ function draw() {
     curveVertex(px, py);
   }
   endShape(CLOSE);
+  
+    // ===== PUNTO CENTRAL PRECISO =====
+  blendMode(BLEND);
+  fill(0, 120);
+  ellipse(x, y, 6, 6);
 
   // =====================
   // SONIDO VIVO
@@ -117,6 +122,7 @@ function mousePressed() {
     hint.style.transition = 'opacity 1.5s ease';
   }
 }
+
 
 
 
