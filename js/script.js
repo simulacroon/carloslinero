@@ -73,7 +73,14 @@ function draw() {
     curveVertex(px, py);
   }
   endShape(CLOSE);
+
+    // ===== PUNTO CENTRAL PRECISO DINÁMICO =====
+
   
+  let speed = dist(mouseX, mouseY, pmouseX, pmouseY);
+  let dotSize = map(speed, 0, 20, 8, 3);
+  
+
 
 
 
@@ -128,6 +135,7 @@ document.querySelectorAll("a").forEach(link => {
   link.addEventListener("mouseenter", () => baseRadius = 30);
   link.addEventListener("mouseleave", () => baseRadius = 50);
 });
+
 
 
 
