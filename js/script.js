@@ -56,7 +56,7 @@ function draw() {
 
   let flow = frameCount * 0.01;
 
-  fill(0, 90, 120, 12);
+  fill(0, 90, 120, 30);
 
   blendMode(BLEND);
 
@@ -117,6 +117,7 @@ function mousePressed() {
     hint.style.transition = 'opacity 1.5s ease';
   }
 }
+
 
 
 
