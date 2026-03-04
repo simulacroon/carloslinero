@@ -183,6 +183,12 @@ nav ul li a {
   pointer-events: none;
 }
 
+#p5-bg canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 
 
 .transition {
@@ -593,6 +599,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
