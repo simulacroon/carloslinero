@@ -400,10 +400,11 @@ nav ul li a {
 /* GALERÍA SCROLL */
 
 .inner-page {
+  min-height: 100vh;
   background: linear-gradient(
     to bottom,
-    #ffffff,
-    #f7f7f7
+    rgba(0,255,136,0),
+    rgba(136,152,67,0.2)
   );
 }
 
@@ -602,6 +603,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
