@@ -122,7 +122,7 @@ nav ul li a {
 
   opacity: 0.20;   /* ← controla aquí la transparencia */
   mix-blend-mode: soft-light;
-  animation: breathingTexture 40s ease-in-out infinite;
+  animation: breathingTexture 60s ease-in-out infinite;
   pointer-events: none;
   z-index: 0;
 }
@@ -605,6 +605,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
