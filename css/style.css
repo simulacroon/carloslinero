@@ -400,21 +400,22 @@ nav ul li a {
 /* GALERÍA SCROLL */
 
 .inner-page {
-  background: linear-gradient(
-    to bottom,
-    rgba(0,255,136,0),
-    rgba(136,152,67,0.2)
-  );
+  background: transparent;
 }
 
 .gallery {
   width: 100%;
-  padding: 12vh 0;
+  padding: 20vh 0;
   display: flex;
   flex-direction: column;
-  gap: 22vh; /* respiración */
+  gap: 35vh;
 
-  background: transparent;
+  background: linear-gradient(
+    to bottom,
+    rgba(238,214,149,0.85),
+    rgba(207,216,170,0.2),
+    rgba(136,152,67,0.3)
+  );
 }
 
 .piece {
@@ -604,6 +605,7 @@ nav ul li a {
     opacity: 0.22;
   }
 }
+
 
 
 
